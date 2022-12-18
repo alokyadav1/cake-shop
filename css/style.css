@@ -9,11 +9,13 @@ header{
 .nav-links li{
     padding: auto 20px;
 }
+
 .nav-links li a{
     color: black;
     font-weight: bolder;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 .nav-links li a:hover{
     color: blueviolet;
@@ -27,7 +29,7 @@ header{
     font-size: 35px;
     padding: 20px 10px;
 }
-.happy-container h1 span, .bestseller-container h1 span,.shop-header h1 span{
+.happy-container h1 span, .bestseller-container h1 span,.cake-type-container h1 span{
     color: #ec268f;
 }
 .happy div{
@@ -70,7 +72,7 @@ header{
     background-image: url("../images/bestseller-img1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: start;
+    background-position:-30px 0vh;
 
 }
 .bestseller div:nth-child(2){
@@ -80,6 +82,9 @@ header{
     background-position: start;
 }
 
+.cake-type-container{
+    padding: auto 10px;
+}
 .cake-type-header button{
     background-color: #ec268f;
     color: white;
@@ -90,19 +95,39 @@ header{
 }
 
 @media screen and (max-width:400px){
+    .happy-container{
+        padding: 5px;
+    }
     .happy div{
-        width: 390px;
-        max-width: 100%;
-        margin:0 10px;
+        max-width: 380px;
+        width: 100%;
     }
     .happy div img{
-        height: auto;
-        width: 390px;
+        max-width: 380px;
+        width: 100%;
     }
     .bestseller div{
         width: 100%;
         border-radius: 10px;
         padding: initial;
         margin: 10px auto;
+    }
+
+    .cake-type-header{
+        padding:10px;
+    }
+    .cake-type-body div,.cake-type-body div img{
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:600px){
+    .happy div{
+        max-width: 580px;
+        width: 100%;
+    }
+    .happy div img{
+        max-width: 580px;
+        width: 100%;
     }
 }
