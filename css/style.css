@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 10px 20px;
+}
+
+.nav-links li{
+    padding: auto 20px;
+}
+.nav-links li a{
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links li a:hover{
+    color: blueviolet;
+}
+.happy-container{
+    padding: 20px;
+}
+.happy-container h1,.bestseller-container h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px 10px;
+}
+.happy-container h1 span, .bestseller-container h1 span,.shop-header h1 span{
+    color: #ec268f;
+}
+.happy div{
+    width: 550px;
+    max-width: 100%;
+    margin:0 10px;
+}
+.happy div img{
+    height: auto;
+    width: 550px;
+}
+.happy div button{
+    background-color: #ec268f;
+    color: white;
+    margin-top:25px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.bestseller-container{
+    background-color: #E4E0F4;
+    margin-top: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.bestseller button{
+    background-color: #ec268f;
+    color: white;
+}
+.bestseller div{
+    width: 40%;
+    border-radius: 10px;
+}
+.bestseller div h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.bestseller div:first-child{
+    background-image: url("../images/bestseller-img1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+
+}
+.bestseller div:nth-child(2){
+    background-image: url('../images/bestseller-img2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+}
+
+.cake-type-header button{
+    background-color: #ec268f;
+    color: white;
+}
+
+.three-d-cake-container,.chocalate-cake-container{
+    background-color: #E4E0F4;
+}
+
+@media screen and (max-width:400px){
+    .happy div{
+        width: 390px;
+        max-width: 100%;
+        margin:0 10px;
+    }
+    .happy div img{
+        height: auto;
+        width: 390px;
+    }
+    .bestseller div{
+        width: 100%;
+        border-radius: 10px;
+        padding: initial;
+        margin: 10px auto;
+    }
+}
