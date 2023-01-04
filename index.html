@@ -2,210 +2,310 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monginis</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monginis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/2fa73918db.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="d-md-flex justify-content-md-around p-md-3">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" alt="logo" width="150">
+  <header class="d-md-flex justify-content-md-around p-md-3">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="logo" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav-links collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-md-5">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Our Products</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Our History</a>
+            </li>
+            <li class="nav-item dropdown mx-md-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Become a Franchise
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="nav-links collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-md-5">
-                  <li class="nav-item mx-md-2">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item mx-md-2">
-                    <a class="nav-link" href="#">Our Products</a>
-                  </li>
-                  <li class="nav-item mx-md-2">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item mx-md-2">
-                    <a class="nav-link" href="#">Our History</a>
-                  </li>
-                  <li class="nav-item dropdown mx-md-2">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Become a Franchise
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Manufacturing Franchise</a></li>
-                      <li><a class="dropdown-item" href="#">Cake shop Franchise</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item mx-md-2">
-                    <a class="nav-link">Blogs</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Manufacturing Franchise</a></li>
+                <li><a class="dropdown-item" href="#">Cake shop Franchise</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link">Blogs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/banner4.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner4.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="happy-container">
+      <h1>Bring A Box Of <span>Happiness Today</span></h1>
+      <div class="happy d-flex justify-content-center flex-wrap align-content-center">
+        <div class="my-2">
+          <img src="./images/happy-img1.png" alt="">
+          <button class="btn">Order Online</button>
+        </div>
+        <div class="my-2">
+          <img src="./images/happy-img2.png" alt="">
+          <button class="btn">Visit Our Nearest Store</button>
+        </div>
+      </div>
+    </section>
+    <section class="bestseller-container">
+      <h1 class="m-5">Shop By <span>Bestseller Categories</span></h1>
+      <div class="bestseller d-flex justify-content-around flex-wrap">
+        <div class="text-end p-5 bg-white">
+          <h2>Birthday Surprises</h2>
+          <button class="btn">View all</button>
+        </div>
+        <div class="text-end p-5 bg-white mx-md-5">
+          <h2>Anniversary Surprises</h2>
+          <button class="btn">View all</button>
+        </div>
+      </div>
+    </section>
+    <section class="cake-type-container shop-container p-md-5 d-flex flex-column">
+      <div class="cake-type-header shop-header d-flex justify-content-between px-md-5 align-items-center my-2">
+        <h1 class="fw-bolder">Shop By <span>Cake</span></h1>
+        <button class="btn">View All</button>
+      </div>
+      <div class="cake-type-body shop-body d-flex justify-content-around flex-wrap gap-2">
+        <div class="text-center">
+          <img src="./images/Tall.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">tall and fancy</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/exotic.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">exotic cakes</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/premium.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">premium cakes</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/designer.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">designer cakes</p>
+        </div>
+      </div>
+    </section>
+    <section class="cake-type-container three-d-cake-container p-md-5 d-flex flex-column">
+      <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
+        <h1 class="fw-bolder">Shop By <span>3D Cakes</span></h1>
+        <button class="btn">View All</button>
+      </div>
+      <div class="cake-type-body d-flex justify-content-around flex-wrap">
+        <div class="text-center">
+          <img src="./images/3d-cakes/wedding.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">wedding cake</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/3d-cakes/photo.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">photo cake</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/3d-cakes/e-motion.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">e-motion cake</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/3d-cakes/3d-cakes.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">3d cake</p>
+        </div>
+      </div>
+    </section>
+    <section class="cake-type-container p-md-5 d-flex flex-column">
+      <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
+        <h1 class="fw-bolder">Shop By <span>Pastry</span></h1>
+        <button class="btn">View All</button>
+      </div>
+      <div class="cake-type-body d-flex justify-content-around flex-wrap">
+        <div class="text-center">
+          <img src="./images/pastry/fresh-cream.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">fresh cream pastries</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/pastry/chocolate.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">chocolate pastrie</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/pastry/cup-pastries.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">cup pastries</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/pastry/swiss-miss.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">swiss miss pastry</p>
+        </div>
+      </div>
+    </section>
+    <section class="cake-type-container chocalate-cake-container p-md-5 d-flex flex-column">
+      <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
+        <h1 class="fw-bolder">Shop By <span>Chocolates</span></h1>
+        <button class="btn">View All</button>
+      </div>
+      <div class="cake-type-body d-flex justify-content-around flex-wrap">
+        <div class="text-center">
+          <img src="./images/chocolates/chocolate-bar.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">chocolate bars</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/chocolates/chocolate-bouquet.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">chocolate bouquet</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/chocolates/rose-sensation-bouquet.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">rose sensation bouquet</p>
+        </div>
+        <div class="text-center">
+          <img src="./images/chocolates/valentine.jpg" alt="" class="rounded-circle">
+          <p class="text-uppercase fw-bolder my-3">valentine chocolate bar</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="first-order-offer d-flex justify-content-center align-items-center">
+      <div class="fw-bolder text-center text-white fs-5 mt-4">
+        <p>Placing your first order ? Get Upto 10% Off</p>
+        <p class="p-0">Use Code : monginis</p>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h1>Know The Sweet <span> Deal First ! </span></h1>
+      <p>Sign Up to our newsletter and get to know the sweets first !</p>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="speciality p-2">
+      <h1 class="text-center">Our <span>Speciality</span></h1>
+      <div class="d-flex p-5 flex-wrap gap-2">
+        <div class="d-flex feature-container">
+          <div class="d-flex justify-content-center">
+            <img src="./images/safe-hygiene.png" alt="">
+            <p class="desc fs-5">Safe & Hygenic Bakery</p>
           </div>
-
-          <section class="happy-container">
-            <h1>Bring A Box Of <span>Happiness Today</span></h1>
-            <div class="happy d-flex justify-content-center flex-wrap align-content-center">
-                <div class="my-2">
-                    <img src="./images/happy-img1.png" alt="">
-                    <button class="btn">Order Online</button>
-                </div>
-                <div class="my-2">
-                    <img src="./images/happy-img2.png" alt="">
-                    <button class="btn">Visit Our Nearest Store</button>
-                </div>
-            </div>
-          </section>
-          <section class="bestseller-container">
-                <h1 class="m-5">Shop By <span>Bestseller Categories</span></h1>
-                <div class="bestseller d-flex justify-content-around flex-wrap">
-                    <div class="text-end p-5 bg-white">
-                        <h2>Birthday Surprises</h2>
-                        <button class="btn">View all</button>
-                    </div>
-                    <div class="text-end p-5 bg-white mx-md-5">
-                        <h2>Anniversary Surprises</h2>
-                        <button class="btn">View all</button>
-                    </div>
-                </div>
-          </section>
-          <section class="cake-type-container shop-container p-md-5 d-flex flex-column">
-            <div class="cake-type-header shop-header d-flex justify-content-between px-md-5 align-items-center my-2">
-                <h1 class="fw-bolder">Shop By <span>Cake</span></h1>
-                <button class="btn">View All</button>
-            </div>
-            <div class="cake-type-body shop-body d-flex justify-content-around flex-wrap">
-                <div class="text-center">
-                    <img src="./images/Tall.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">tall and fancy</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/exotic.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">exotic cakes</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/premium.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">premium cakes</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/designer.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">designer cakes</p>
-                </div>
-            </div>
-          </section>
-          <section class="cake-type-container three-d-cake-container p-md-5 d-flex flex-column">
-            <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
-                <h1 class="fw-bolder">Shop By <span>3D Cakes</span></h1>
-                <button class="btn">View All</button>
-            </div>
-            <div class="cake-type-body d-flex justify-content-around flex-wrap">
-                <div class="text-center">
-                    <img src="./images/3d-cakes/wedding.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">wedding cake</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/3d-cakes/photo.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">photo cake</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/3d-cakes/e-motion.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">e-motion cake</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/3d-cakes/3d-cakes.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">3d cake</p>
-                </div>
-            </div>
-          </section>
-          <section class="cake-type-container p-md-5 d-flex flex-column">
-            <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
-                <h1 class="fw-bolder">Shop By <span>Pastry</span></h1>
-                <button class="btn">View All</button>
-            </div>
-            <div class="cake-type-body d-flex justify-content-around flex-wrap">
-                <div class="text-center">
-                    <img src="./images/pastry/fresh-cream.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">fresh cream pastries</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/pastry/chocolate.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">chocolate pastrie</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/pastry/cup-pastries.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">cup pastries</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/pastry/swiss-miss.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">swiss miss pastry</p>
-                </div>
-            </div>
-          </section>
-          <section class="cake-type-container chocalate-cake-container p-md-5 d-flex flex-column">
-            <div class="cake-type-header d-flex justify-content-between px-md-5 align-items-center my-2">
-                <h1 class="fw-bolder">Shop By <span>Chocolates</span></h1>
-                <button class="btn">View All</button>
-            </div>
-            <div class="cake-type-body d-flex justify-content-around flex-wrap">
-                <div class="text-center">
-                    <img src="./images/chocolates/chocolate-bar.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">chocolate bars</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/chocolates/chocolate-bouquet.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">chocolate bouquet</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/chocolates/rose-sensation-bouquet.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">rose sensation bouquet</p>
-                </div>
-                <div class="text-center">
-                    <img src="./images/chocolates/valentine.jpg" alt="" class="rounded-circle">
-                    <p class="text-uppercase fw-bolder my-3">valentine chocolate bar</p>
-                </div>
-            </div>
-          </section>
-
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        </div>
+        <div class="d-flex feature-container">
+          <div class="d-flex justify-content-center">
+            <img src="./images/delivery.png" alt="">
+            <p class="desc fs-5">Delivery in 700+ Cities</p>
+          </div>
+        </div>
+        <div class="d-flex feature-container">
+          <div class="d-flex justify-content-center">
+            <img src="./images/trusted.png" alt="">
+            <p class="desc fs-5">Trusted By 20 Million</p>
+          </div>
+        </div>
+        <div class="d-flex feature-container">
+          <div class="d-flex justify-content-center">
+            <img src="./images/customer-service.png" alt="">
+            <p class="desc fs-5">Services in 18000+ pincodes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="header d-flex align-items-center justify-content-around flex-wrap">
+      <div class="logo">
+        <img src="./images/logo.png" alt="monginis logo" width="300">
+      </div>
+      <div class="social-media text-black d-flex flex-column">
+        <p class="fw-bolder fs-5 text-end">Connect with Us</p>
+        <div class="d-flex">
+          <div class="icon-container" id="facebook">
+            <img src="./images//social-icon/facebook.svg" alt=""></div>
+          <div class="icon-container" id="twitter">
+            <img src="./images//social-icon/twitter.svg" alt=""></div>
+          <div class="icon-container" id="youtube">
+            <img src="./images//social-icon/youtube.svg" alt=""></div>
+          <div class="icon-container" id="instagram">
+            <img src="./images//social-icon/instagram.svg" alt=""></div>
+        </div>
+        </div>
+    </div>
+    <div class="body d-flex justify-content-around flex-wrap mt-3 gap-2">
+      <div class="link-container">
+        <a href="#Contact Us">Contact Us</a>
+        <a href="#About Us">About Us</a>
+        <a href="#Become Francise">Become Francise</a>
+        <a href="#Become Vendor">Become Vendor</a>
+      </div>
+      <div class="link-container">
+        <a href="#Contact Us">Cakes</a>
+        <a href="#About Us">3D & SP Cakes</a>
+        <a href="#Become Francise">Pastries</a>
+        <a href="#Become Vendor">Savouries</a>
+        <a href="#Become Vendor">Chocolates</a>
+      </div>
+      <div class="link-container">
+        <a href="#Contact Us">Download E-brochure</a>
+        <a href="#About Us">Recognition & Awards</a>
+        <a href="#Become Francise">Contact Us</a>
+        <a href="#Become Vendor">Cake Studies</a>
+        <a href="#Become Vendor">Our Factories</a>
+      </div>
+      <div class="link-container">
+        <a href="#Contact Us">Refund Policy</a>
+        <a href="#About Us">Privacy Policy</a>
+        <a href="#Become Francise">Terms & conditions</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="text-center mt-5">Copyright © Monginis. All rights reserved</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

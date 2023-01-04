@@ -26,7 +26,7 @@ header{
 .happy-container h1,.bestseller-container h1{
     font-weight: bold;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     padding: 20px 10px;
 }
 .happy-container h1 span, .bestseller-container h1 span,.cake-type-container h1 span{
@@ -85,6 +85,9 @@ header{
 .cake-type-container{
     padding: auto 10px;
 }
+.cake-type-container h1{
+    font-size: 30px;
+}
 .cake-type-header button{
     background-color: #ec268f;
     color: white;
@@ -94,17 +97,98 @@ header{
     background-color: #E4E0F4;
 }
 
+.first-order-offer{
+    height: 160px;
+    background-image: url("../images/first-order-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsletter{
+    padding: 70px;
+    background: url("../images/newsletter-bg.png") no-repeat;
+    background-size: cover;
+    background-color: #E4E0F4;
+
+}
+.newsletter h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.newsletter h1 span{
+    color: #ec268f;
+}
+.newsletter p{
+    margin-top: 10px;
+}
+.newsletter form input{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 35vw;
+}
+.newsletter form input:focus{
+    outline: none;
+}
+.newsletter form button{
+    margin-left: 10px;
+    border: none;
+    background-color: #20134B;
+    color: white;
+    padding: 10px;
+}
+.speciality h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.speciality h1 span{
+    color: #ec268f;
+}
+
+.speciality .feature-container img{
+    width: 90px;
+    height: 80px;
+}
+
+footer .header .social-media img{
+    width: 30px;
+    height: 30px;
+}
+footer .header .social-media .icon-container{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#facebook{
+    background-color: #3b5998;
+}
+#twitter{
+    background-color: #1da1f2;
+}
+#instagram{
+    background-color: #f0096a;
+}
+#youtube{
+    background-color: #cd201f;
+}
+footer{
+    background-color: #e2def5;
+}
+footer .body .link-container a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
 @media screen and (max-width:400px){
     .happy-container{
         padding: 5px;
     }
     .happy div{
-        max-width: 380px;
+        max-width: 360px;
         width: 100%;
         min-width: 100px;
     }
     .happy div img{
-        max-width: 380px;
+        max-width: 360px;
         width: 100%;
         min-width: 100px;
     }
@@ -120,6 +204,12 @@ header{
     }
     .cake-type-body div,.cake-type-body div img{
         width: 180px;
+    }
+    .newsletter form input{
+        width: 100%;
+    }
+    .newsletter form button{
+        margin-top: 10px;
     }
 }
 
