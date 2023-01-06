@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    padding: 2rem;
+}
+.heading{
+    color: #ec268f;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.aboutUs {
+    background-color: #1c1148;
+    color: #ec268f;
+    padding: 1.5em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.story h1{
+    color: #ec268f;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.story-img, .story-text{
+    width: 50%;
+}
+.story img{
+    min-width: 200px;
+    width: 550px;
+}
+
+.mission,.secret,.stores{
+    padding: 2rem 6rem;
+}
+.list-values p span{
+    color: black;
+    font-weight: bolder;
+}
+.list-values .list-img{
+    width: 25%;
+}
+.list-values .list-text{
+    width: 75%;
+}
+.secret-img, .secret-text{
+    width: 50%;
+}
+.secret-img img{
+    min-width: 200px;
+    width: 500px;
+}
+@media only screen and (max-width:400px){
+    main{
+        padding: 1rem;
+    }
+    .story{
+        margin-top: 1rem;
+    }
+    .story img{
+        min-width: 200px;
+        width: 350px;
+    }
+    .story-img, .story-text{
+        width: 100%;
+    }
+    .story-text{
+        padding: 1rem;
+    }
+    .mission,.secret,.stores{
+        padding: 1rem;
+    }
+    .list-values .list-img, .list-values .list-text{
+        width: initial;
+    }
+    .secret-img, .secret-text{
+        width: 100%;
+    }
+    .secret-img img{
+        min-width: 200px;
+        width: 350px;
+    }
+}

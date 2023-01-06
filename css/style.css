@@ -148,7 +148,9 @@ header{
     width: 90px;
     height: 80px;
 }
-
+footer{
+    padding: 1rem;
+}
 footer .header .social-media img{
     width: 30px;
     height: 30px;
